@@ -24,6 +24,6 @@ Things you may want to cover:
 * Herokuapp
     <br> https://jul-zvika-hw.herokuapp.com/
     <br> Root page retuen list of categories ,click on category will navigate to the category products
-* products catalog (https://jul-zvika-hw.herokuapp.com/catalog/1?page=2 )
+* products catalog (for example https://jul-zvika-hw.herokuapp.com/catalog/1?page=2 )
     <br> products sorted by name 
     <br> pagination - page size set as 2. 
