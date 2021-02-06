@@ -1,0 +1,9 @@
+<h1>Catalog</h1>
+
+<ul>
+  <% @categories.each do |category| %>
+    <li>
+        <%= category.id %> - <%= category.name %>
+    </li>
+  <% end %>
+</ul>
