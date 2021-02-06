@@ -1,9 +1,11 @@
-<h1>Catalog</h1>
+<h1>categories</h1>
 
 <ul>
   <% @categories.each do |category| %>
     <li>
+      <a href="/catalog/<%= category.id %>">
         <%= category.id %> - <%= category.name %>
+      </a>
     </li>
   <% end %>
 </ul>
