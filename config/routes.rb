@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   root "catalog#categories"
   
   get "/catalog",     to: "catalog#categories"
+  get "/catalog/json",     to: "catalog#categories_json"
   get "/catalog/:id", to: "catalog#products"
+  get "/catalog/json/:id", to: "catalog#products_json"
 end

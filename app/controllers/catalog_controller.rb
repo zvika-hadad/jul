@@ -9,4 +9,14 @@ class CatalogController < ApplicationController
     
     @products = Product.paginate(page: params[:page], per_page: 2).order(:name).where(category_id: descendant_ids)
   end
+
+  def categories_json
+    categories
+    render :json => @categories, each_serializer: CategorySerializer
+  end
+  def products_json
+    products
+
+    render :json => @products, each_serializer: ProductSerializer
+  end
 end

@@ -27,3 +27,9 @@ Things you may want to cover:
 * products catalog (for example https://jul-zvika-hw.herokuapp.com/catalog/1?page=2 )
     <br> products sorted by name 
     <br> pagination - page size set as 2. 
+
+* JSON 
+    <br>categories json list 
+    <br>https://jul-zvika-hw.herokuapp.com/catalog/json 
+    <br>json category products 
+    <br>https://jul-zvika-hw.herokuapp.com/catalog/json/1?page=2
