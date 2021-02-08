@@ -31,5 +31,5 @@ Things you may want to cover:
 * JSON 
     <br>categories json list 
     <br>https://jul-zvika-hw.herokuapp.com/catalog/json 
-    <br>json category products 
+    <br>paging json category products
     <br>https://jul-zvika-hw.herokuapp.com/catalog/json/1?page=2
